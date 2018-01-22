@@ -1,0 +1,52 @@
+Aluno: Carlos Davi 431
+
+Q 1.1-
+“Mininet-WiFi: Emulating software-defined wireless networks”, pois o mesmo é muito objetivo e claro, contendo mais informações especificas sobre o programa, suas utilidades entre outras vantagens.
+
+Q 2.1-
+Em nenhum dos casos ocorreu perda de pacotes.
+
+Q 2.2-
+o resultado que obive foi Sta1 10.5 Mbits/sec e Sta2 10.6 Mbits/sec.
+
+Q 2.3-
+TxPower: referente a potencia do sinal enviado. 
+Wlan: rede atual conectada
+IP: endereço da rede local
+Range: é referente ao alcance da rede.
+Mac: Media Access Control é o endereço físico.
+Frequency: frequência do sinal enviado.
+Mode: modelo de funcionamento da rede.
+AntennaHeight: altura da antena
+Position: posicão
+Channel: canal
+Rssi:  received signal strength indicator, ou seja,indicador de força do sinal recebido
+
+Q 3.1-
+O nó incomunicavel é o sta3, ele nao está dentro do limite de alcance da rede.Sim ele esta associado a ap1.
+
+Q 3.2-
+LogDistancePropagationLossModel foi o modelo que eu utilizei.Antes ele estava -48 dBm apos a configuraçao do novo modelo ele foi para -62 dBm.
+
+
+Q 3.3-
+De preferencia em lugares abertos com baixa taxa de interferencia desse modo possuindo um melhor sinal e mais amplo.
+
+Q 4.1-
+Sta1 -32dBm e sta3 -37 dBm, ambos com 18Mbits/sec tendo como distancia 50m.
+
+Q 4.2-
+limite de avaliação do canal claro , é um sistema para detectar a energia do canal para ve se pode ou nao enviar o pacote.
+
+Q 5.1-
+Nao,Sta1 saiu do alcance de ap1 , desse modo nao havendo mais comuniçao entre eles.
+
+Q 5.2-
+Handover, ele fuinciona do seguinte modo o aprelho faz uma busca pelo melhor ponto de acesso apos isso o aparelho pode se locomover sem que haja perda do sinal, somente se o sinal do ponto de acesso atual ficar ruim ele utilizara outro ponto de acesso.
+
+Q 6.1-
+
+Nao ocorre nenhuma comunicaçao pois eles estao fora do alcance da rede.
+
+Q 6.3-
+Utilizaria quando houvesse uma necessidade de precisão com a distancia.
